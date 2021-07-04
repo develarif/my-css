@@ -1,0 +1,20 @@
+/*
+* Name : Dot Css
+* Version : 1.0
+* License : GNU General Public License 2.0
+* File : Container
+*/
+
+.full-width {width: 100%;}
+.trim-width {width: 90%; margin: 0 auto;}
+
+@media all and (min-width: 576px) {.trim-width {max-width: 540px;}}
+@media all and (min-width: 768px) {.trim-width {max-width: 720px;}}
+@media all and (min-width: 992px) {.trim-width {max-width: 960px;}}
+@media all and (min-width: 1200px) {.trim-width {max-width: 1140px;}}
+@media all and (min-width: 1400px) {.trim-width {max-width: 1320px;}}
+
+
+
+
+
